@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <div>
+    <a href="{% url 'post_list' %}" class="return-link">Return Back to list</a>
+    <h2 class="details-title">{{ post.title }}</h2>
+    <div class="details-text">{{ post.text|linebreaksbr }}</div>
+  </div>
+{% endblock %}

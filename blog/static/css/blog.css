@@ -1,0 +1,72 @@
+.header {
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border: solid 1px #ddd;
+  background: #eee;
+  animation: headerBack 5s infinite;
+  box-shadow: 1px 1px 2px #888;
+}
+
+@keyframes headerBack {
+  0% {background: #ffff00;}
+  50% {background: #00ffff;}
+  100% {background: #ffff00;}
+}
+
+.page-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #ff0000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.post {
+  margin: 15px 0;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 15px;
+}
+
+.post-description {
+  color: #222;
+  max-height: 120px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.post-published {
+  color: #aaa;
+  font-size: 12px;
+  margin: 15px;
+}
+
+.details-title {
+  margin: 15px 0;
+}
+
+.details-text {
+  line-height: 1.5;
+  color: #222;
+  text-align: justify;
+}
+
+.errorlist {
+  list-style-type: none;
+  color: #ff0000;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0;
+  margin: 7px 10px;
+}
+
+.return-link {
+  margin: 10px;
+}
+
+.post-form {
+  padding-top: 20px;
+}

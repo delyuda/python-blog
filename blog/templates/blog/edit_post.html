@@ -1,0 +1,29 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<div>
+  <div>
+    <a href="{% url 'post_list' %}" class="return-link">Return To Home Page</a>
+  </div>
+
+  <form method="POST" novalidate class="post-form">{% csrf_token %}
+    <div class="form-group">
+      {{form.title.label}}:
+      {{form.title}}
+    </div>
+
+    {{ form.title.errors }}
+
+    <div class="form-group">
+      {{ form.text.label }}:
+      {{ form.text }}
+    </div>
+
+    {{ form.text.errors }}
+
+    <button type="submit" class="btn btn-success">Save</button>
+  </form>
+</div>
+
+{% endblock %}

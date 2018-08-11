@@ -1,0 +1,19 @@
+{
+  "name": "python-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delyuda/python-blog.git"
+  },
+  "author": "Liudmyla Demenkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delyuda/python-blog/issues"
+  },
+  "homepage": "https://github.com/delyuda/python-blog#readme"
+}
